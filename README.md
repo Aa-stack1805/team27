@@ -2,9 +2,11 @@ _This is just a suggested template for the README of your project, feel free to 
 # \[Project Title\]
 
 ### Team Members
-- Name 1 (Project Lead)
-- Name 2
-- Name 3
+- Aadit Singal (Project Lead)
+- Jack
+- Julian Hoang
+- Kevin Duong
+- Patrick Baldinger
 
 ### Project Description
 Describe the goal of your project here.

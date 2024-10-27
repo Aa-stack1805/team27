@@ -1,5 +1,5 @@
 _This is just a suggested template for the README of your project, feel free to modify this as you wish_
-# \[Project Title\]
+# \[Task Manager App\]
 
 ### Team Members
 - Aadit Singal (Project Lead)

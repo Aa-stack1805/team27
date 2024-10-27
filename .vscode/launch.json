@@ -6,10 +6,17 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "src.hellofx.Main",
+            "projectName": "team27_8d2357b"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "hellofx.Main",
-            "vmArgs": "--module-path C:/Users/kevin/OneDrive/Documents/GitHub/team27/lib --add-modules javafx.controls,javafx.fxml",
+            "vmArgs": "--module-path C:/Users/kevin/OneDrive/Documents/GitHub/team27/lib --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }

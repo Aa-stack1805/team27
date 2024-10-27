@@ -1,4 +1,4 @@
-package hellofx;
+package src.hellofx;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

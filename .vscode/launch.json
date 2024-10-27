@@ -9,7 +9,7 @@
             "name": "Launch App",
             "request": "launch",
             "mainClass": "hellofx.Main",
-            "vmArgs": "--module-path C:/Users/patri/OneDrive/Documents/javafx-sdk-23.0.1/lib --add-modules javafx.controls,javafx.fxml",
+            "vmArgs": "--module-path C:/Users/kevin/OneDrive/Documents/javafx-sdk-23.0.1/lib --add-modules javafx.controls,javafx.fxml",
         }
     ]
 }

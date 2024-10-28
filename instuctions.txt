@@ -1,3 +1,21 @@
+INSTRUCTIONS ON HOW TO GET JAVAFX TO WORK:
+
+DOWNLOADING JAVAFX:
+1. Go to https://gluonhq.com/products/javafx/ and download the correct SDK for your OS
+2. Go into the download and move the javafx-sdk-23.0.1 folder into an accessible location (such as Documents)
+
+CONFIGURING VSCODE (YOU SHOULD NOT BE ABLE TO COMMIT ANYTHING, IF YOU CAN, DO NOT COMMIT)
+1. Create a folder in team27 named ".vscode"
+2. Create two files in the ".vscode" folder named "launch.json" and "settings.json"
+3. Copy the code below into the correct files stated
+4. Replace (YOUR FILE PATH) in "launch.json" to the path of the folder you moved in the "DOWNLOADING JAVAFX" with /lib at the end
+    a. Do this by finding the folder and copying the path to it in file explorer
+    b. For example, my file path is this: C:/Users/kevin/OneDrive/Documents/javafx-sdk-23.0.1/lib
+5. Go into the Main file and run it
+    a. A screen should pop up saying hello javafx
+    b. If this screen does not appear, contact me, Kevin Duong on Discord
+
+COPY THIS INTO "launch.json"
 {
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
@@ -9,25 +27,17 @@
             "name": "Launch App",
             "request": "launch",
             "mainClass": "hellofx.Main",
-            "vmArgs": "--module-path (PATH GOES HERE) --add-modules javafx.controls,javafx.fxml",
+            "vmArgs": "--module-path (YOUR FILE PATH) --add-modules javafx.controls,javafx.fxml,javafx.base,javafx.graphics,javafx.media,javafx.swing,javafx.web"
         }
     ]
 }
 
+COPY THIS INTO "settings.json"
 {
-    "java.project.sourcePaths": [
-        "src"
-    ],
+    "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "c:\\Users\\YOURNAME\\OneDrive\\Documents\\GitHub\\team27\\lib\\javafx.controls.jar",
-        "c:\\Users\\YOURNAME\\OneDrive\\Documents\\GitHub\\team27\\lib\\javafx-swt.jar",
-        "c:\\Users\\YOURNAME\\OneDrive\\Documents\\GitHub\\team27\\lib\\javafx.fxml.jar",
-        "c:\\Users\\YOURNAME\\OneDrive\\Documents\\GitHub\\team27\\lib\\javafx.graphics.jar",
-        "c:\\Users\\YOURNAME\\OneDrive\\Documents\\GitHub\\team27\\lib\\javafx.media.jar",
-        "c:\\Users\\YOURNAME\\OneDrive\\Documents\\GitHub\\team27\\lib\\javafx.swing.jar",
-        "c:\\Users\\YOURNAME\\OneDrive\\Documents\\GitHub\\team27\\lib\\javafx.web.jar",
-        "c:\\Users\\YOURNAME\\OneDrive\\Documents\\GitHub\\team27\\lib\\javafx.base.jar"
+        "lib/*.jar"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }

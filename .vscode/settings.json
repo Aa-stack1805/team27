@@ -1,0 +1,17 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "c:\\Users\\patri\\OneDrive\\Documents\\GitHub\\team27\\lib\\javafx.controls.jar",
+        "c:\\Users\\patri\\OneDrive\\Documents\\GitHub\\team27\\lib\\javafx-swt.jar",
+        "c:\\Users\\patri\\OneDrive\\Documents\\GitHub\\team27\\lib\\javafx.fxml.jar",
+        "c:\\Users\\patri\\OneDrive\\Documents\\GitHub\\team27\\lib\\javafx.graphics.jar",
+        "c:\\Users\\patri\\OneDrive\\Documents\\GitHub\\team27\\lib\\javafx.media.jar",
+        "c:\\Users\\patri\\OneDrive\\Documents\\GitHub\\team27\\lib\\javafx.swing.jar",
+        "c:\\Users\\patri\\OneDrive\\Documents\\GitHub\\team27\\lib\\javafx.web.jar",
+        "c:\\Users\\patri\\OneDrive\\Documents\\GitHub\\team27\\lib\\javafx.base.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}

@@ -1,16 +1,18 @@
 package hellofx;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
+import javafx.scene.layout.AnchorPane;
+
+
 
 public class Controller {
 
     @FXML
-    private Label label;
 
-    public void initialize() {
-        String javaVersion = System.getProperty("java.version");
-        String javafxVersion = System.getProperty("javafx.version");
-        label.setText("Hello, JavaFX " + javafxVersion + "\nRunning on Java " + javaVersion + ".");
+    private AnchorPane anchorPane;
+
+    public void usefulButtonIsPressed(ActionEvent e) {
+        System.out.println("Nice, you pressed this button!");
     }
 }
